@@ -647,20 +647,23 @@ Inspecting the Pipeline
 
            print("== Tokens ==")
            for token in tokenize.generate_tokens(io.StringIO(code).readline):
-               print(token)
+               print(tokenize.tok_name[token.type], repr(token.string))
 
         .. code-block:: text
 
-           TokenInfo(type=1 (NAME), string='x', start=(1, 0), end=(1, 1), line='x = 5 + 3')
-           TokenInfo(type=55 (OP), string='=', start=(1, 2), end=(1, 3), line='x = 5 + 3')
-           TokenInfo(type=2 (NUMBER), string='5', start=(1, 4), end=(1, 5), line='x = 5 + 3')
-           TokenInfo(type=55 (OP), string='+', start=(1, 6), end=(1, 7), line='x = 5 + 3')
-           TokenInfo(type=2 (NUMBER), string='3', start=(1, 8), end=(1, 9), line='x = 5 + 3')
-           TokenInfo(type=4 (NEWLINE), string='', start=(1, 9), end=(1, 10), line='x = 5 + 3')
-           TokenInfo(type=0 (ENDMARKER), string='', start=(2, 0), end=(2, 0), line='')
+           NAME 'x'
+           OP '='
+           NUMBER '5'
+           OP '+'
+           NUMBER '3'
+           NEWLINE ''
+           ENDMARKER ''
 
         Each token has a type (``NAME``, ``OP``, ``NUMBER``) and the text
-        it came from.
+        it came from. Each token stores its type as a number;
+        ``tokenize.tok_name`` turns the number into a name. ``repr()``
+        prints the token's text with its quotes, so an empty text shows
+        as ``''``.
 
     .. tab-item:: Step 2: Abstract syntax tree
 
