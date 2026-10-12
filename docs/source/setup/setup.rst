@@ -6,7 +6,7 @@ This section lists the software used throughout the course. Step-by-step
 instructions are posted before the first lecture.
 
 - **Ubuntu**: Ubuntu Desktop 24.04 LTS (Noble Numbat).
-- **Python development**: VS Code and Docker. Complete before the
+- **Python development**: VS Code and uv. Complete before the
   first lecture.
 - **ROS 2**: ROS 2 Jazzy Jalisco and Gazebo Harmonic. Needed starting
   in Lecture 8 (March 30).

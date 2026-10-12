@@ -67,7 +67,7 @@ html_theme_options = {
         },
     ],
     "back_to_top_button": True,
-    "header_links_before_dropdown": 6,
+    "header_links_before_dropdown": 7,
     # Light/dark mode toggle
     "navbar_end": ["theme-switcher", "navbar-icon-links"],
     # Navigation

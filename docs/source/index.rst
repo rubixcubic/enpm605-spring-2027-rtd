@@ -15,7 +15,7 @@ ROS 2 system.
 
 Key topics covered include:
 
-- Python development in VS Code, inside Docker containers
+- Python development in VS Code, with uv and Ruff
 - Python fundamentals: types, operators, control flow, and collections
 - Functions: arguments, scopes, type hints, closures, and callbacks
 - NumPy and Matplotlib for robotics math and plots
@@ -35,7 +35,7 @@ Learning Outcomes
 -----------------
 After successfully completing this course, you will be able to:
 
-- Set up and use a Python development environment (VS Code, Docker, Git).
+- Set up and use a Python development environment (VS Code, uv, Ruff, Git).
 - Write correct, readable Python programs with type hints.
 - Use NumPy arrays to work with sensor data, poses, and transforms.
 - Design object-oriented programs with classes, inheritance, and protocols.
@@ -57,4 +57,5 @@ After successfully completing this course, you will be able to:
    lectures/index
    assignments/index
    glossary/glossary
+   reading_material/index
    changelog/changelog

@@ -57,10 +57,24 @@ Course Policies
         - AI tools are permitted for the team projects and the final
           project, as long as you document how you used them.
 
-.. note::
+    .. grid-item-card:: Quizzes
+        :class-card: sd-border-info
 
-   Quizzes are closed-notes and taken in class: no slides, and no
-   software to test code.
+        - Quizzes take the first 20 minutes of class. They are
+          closed-notes: no slides, and no software to test code.
+        - If you are not a remote/online student and miss class, take
+          the quiz another day with a 10% penalty, or with no penalty if
+          you are excused (doctor's note, supervisor's note, and so on).
+        - Online/remote students: email me the day and time you plan to
+          take each quiz.
+
+    .. grid-item-card:: Peer Reviews
+        :class-card: sd-border-info
+
+        - After each team project and the final project, you score each
+          teammate from 1 to 10. You cannot rate yourself.
+        - Your score is 60% project grade and 40% peer review.
+        - You get 1 point for emailing me your reviews.
 
 
 .. _course-schedule:
