@@ -66,3 +66,36 @@ entry links back to the lecture that defines it.
    Shallow copy
       A new container whose slots refer to the same objects as the original, made with ``copy.copy()``. (:doc:`Memory </reading_material/memory/mem_lecture>`)
 
+   Module
+      One ``.py`` file. Another file can ``import`` it and use the names it defines. (:doc:`L2 </lectures/lecture2/l2_lecture>`)
+
+   Package
+      A folder of modules. A regular package holds an ``__init__.py`` file, which Python runs when the package is imported. (:doc:`L2 </lectures/lecture2/l2_lecture>`)
+
+   Module search path
+      The list of folders, ``sys.path``, that Python searches in order for each ``import``. The folder of the program you run comes first. (:doc:`L2 </lectures/lecture2/l2_lecture>`)
+
+   PYTHONPATH
+      An environment variable whose folders Python adds to ``sys.path``. Sourcing ROS 2 sets it, which makes ``rclpy`` importable. (:doc:`L2 </lectures/lecture2/l2_lecture>`)
+
+   Main guard
+      The block ``if __name__ == "__main__":``. Its code runs when the file is run, and not when the file is imported. (:doc:`L2 </lectures/lecture2/l2_lecture>`)
+
+   Falsy
+      Describes a value that counts as false in a condition: ``None``, ``False``, zero of any numeric type, and empty sequences and collections. Every other value is truthy. (:doc:`L2 </lectures/lecture2/l2_lecture>`)
+
+   Short-circuit evaluation
+      ``and`` and ``or`` evaluate their right side only when the left side does not already decide the result. (:doc:`L2 </lectures/lecture2/l2_lecture>`)
+
+   Floor division
+      The operator ``//``. It divides and rounds toward negative infinity, so ``-7 // 2`` is ``-4``. (:doc:`L2 </lectures/lecture2/l2_lecture>`)
+
+   f-string
+      A string literal that starts with ``f``, in which each ``{expression}`` is replaced by its value, for example ``f"{speed:.2f} m/s"``. (:doc:`L2 </lectures/lecture2/l2_lecture>`)
+
+   Slice
+      A copy of part of a sequence, written ``s[start:stop:step]``. It holds the items from ``start`` up to, but not including, ``stop``. (:doc:`L2 </lectures/lecture2/l2_lecture>`)
+
+   Capture pattern
+      A bare name in a ``case`` of a ``match`` statement. It always matches and binds the value to that name. (:doc:`L2 </lectures/lecture2/l2_lecture>`)
+

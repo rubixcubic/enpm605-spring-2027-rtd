@@ -5,10 +5,28 @@ Changelog
 All notable changes to the ENPM605 Spring 2027 course documentation are recorded here.
 
 
-.. dropdown:: v1.1.0: Lecture 1 and Setup with uv (2026-10-12)
+.. dropdown:: v1.2.0: Lecture 2 (2026-10-12)
    :icon: tag
    :class-container: sd-border-success
    :open:
+
+   **Lecture 2**
+
+   - New pages from the L2 deck: lecture, Python exercises, quiz, and
+     references. Every program output on them comes from running the
+     course code.
+   - The lecture covers the ``match`` statement, as the planned topics
+     said.
+   - The packages section matches the course environment: Python finds
+     a package next to the program, in ``.venv``, or through
+     ``PYTHONPATH``, which is how ROS 2 makes ``rclpy`` importable.
+   - Two new SVG figures: string indices and slicing.
+   - The glossary gains eleven Lecture 2 terms.
+
+
+.. dropdown:: v1.1.0: Lecture 1 and Setup with uv (2026-10-12)
+   :icon: tag
+   :class-container: sd-border-success
 
    **Lecture 1**
 
