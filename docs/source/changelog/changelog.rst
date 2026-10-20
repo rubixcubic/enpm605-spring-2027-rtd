@@ -5,10 +5,20 @@ Changelog
 All notable changes to the ENPM605 Spring 2027 course documentation are recorded here.
 
 
-.. dropdown:: v1.2.0: Lecture 2 (2026-10-12)
+.. dropdown:: v1.2.1: Git and GitHub Are Prerequisites (2026-10-20)
    :icon: tag
    :class-container: sd-border-success
    :open:
+
+   - The home page lists Git and GitHub under Prerequisites: clone, branch,
+     commit, push and pull, resolve a merge conflict, and open and review a
+     pull request. The course does not teach them, so the first learning
+     outcome no longer names Git.
+
+
+.. dropdown:: v1.2.0: Lecture 2 (2026-10-12)
+   :icon: tag
+   :class-container: sd-border-success
 
    **Lecture 2**
 

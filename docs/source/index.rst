@@ -31,11 +31,15 @@ Prerequisites
 -------------
 Basic programming experience. No prior Python or ROS experience required.
 
+You must already use Git and GitHub well: clone, branch, commit, push and pull,
+resolve a merge conflict, and open and review a pull request. The course does
+not teach them.
+
 Learning Outcomes
 -----------------
 After successfully completing this course, you will be able to:
 
-- Set up and use a Python development environment (VS Code, uv, Ruff, Git).
+- Set up and use a Python development environment (VS Code, uv, Ruff).
 - Write correct, readable Python programs with type hints.
 - Use NumPy arrays to work with sensor data, poses, and transforms.
 - Design object-oriented programs with classes, inheritance, and protocols.
