@@ -480,8 +480,11 @@ Reading the numbers:
    references (with spare room, as before).
 2. Each float is a separate object of 24 bytes, so the floats take
    1,000,000 × 24 = 24,000,000 bytes.
-3. ``tracemalloc`` counted 32,448,728 bytes in all:
-   8,448,728 + 24,000,000 = 32,448,728.
+3. ``tracemalloc`` counted 32,448,672 bytes in all (the second number
+   printed). The two parts above add up to
+   8,448,728 + 24,000,000 = 32,448,728, which is 56 bytes more: the two
+   tools do not count exactly the same allocations, but they agree to
+   within 56 bytes in about 32 million.
 4. The NumPy array stores the numbers themselves, 8 bytes each
    (``itemsize``): 1,000,000 × 8 = 8,000,000 bytes, about a quarter of
    the list's total.

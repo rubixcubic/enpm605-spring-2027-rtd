@@ -41,4 +41,4 @@ ROS 2 Jazzy runs on Ubuntu 24.04, with Ubuntu's Python 3.12.
 
 .. note::
 
-   Detailed ROS 2 steps are posted before Lecture 8.
+   Install ROS 2 Jazzy with the official guide, `Ubuntu (deb packages) <https://docs.ros.org/en/jazzy/Installation/Ubuntu-Install-Debs.html>`__, before Lecture 8. :doc:`Lecture 8 </lectures/lecture8/l8_lecture>` then shows how to source ROS 2 in every terminal ("Sourcing Sets Up a Terminal for ROS 2"), set the discovery range and your domain ("Discovery: Nodes on the Same Domain Find Each Other"), and build a workspace ("A Workspace Is a Folder with Your Packages in src").
